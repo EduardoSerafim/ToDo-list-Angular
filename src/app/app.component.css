@@ -1,0 +1,25 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  width: 80%;
+  height: 70vh;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}

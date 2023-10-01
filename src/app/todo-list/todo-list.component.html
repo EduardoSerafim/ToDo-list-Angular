@@ -1,0 +1,14 @@
+<section>
+  <div>
+    <input type="text" placeholder="To Do" [(ngModel)]="todoItem" />
+
+    <button (click)="addTodo()">Add</button>
+  </div>
+
+  <ul>
+    <li *ngFor="let todoItem of todos; let i = index">
+      <p>{{ todoItem }}</p>
+      <button (click)="removeTodo(i)">X</button>
+    </li>
+  </ul>
+</section>
